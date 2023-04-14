@@ -1,0 +1,239 @@
+.contact{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: -2%;
+    width: 100%;
+  
+margin-bottom: 5%;
+
+}
+
+.contact h1{
+    font-size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 35px;
+    font-weight: 460;
+    color: white;
+    font-family: sans-serif;
+ text-align: center;
+}
+
+.contact h3{
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -1%;
+}
+
+.contact .big{
+    color: rgb(207, 207, 207);
+    font-size: 35px;
+}
+.contact .dash{
+    margin-top: -2%;
+    width: 90%;
+border-top: 1px dashed rgb(255, 255, 255);
+border-bottom: none;
+border-left: none;
+border-right: none;
+}
+
+
+.contact .left{
+    width: 60%;
+
+    height: 400px;
+    float: left;
+    margin-bottom: 5%;
+}
+.contact .left form{
+    margin-top: 5%;
+
+}
+
+.contact .left input{
+margin-left: 15%;
+width: 70%;
+height: 35px;
+border-radius: 5px;
+outline: none;
+border: none;
+color: rgb(134, 209, 14);
+padding-left: 10px;
+font-size: 1.3rem;
+margin-top: 20px;
+
+}
+
+
+.contact .left textarea{
+    margin-left: 15%;
+    width: 70%;
+    height: 180px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 3px;
+    color: rgb(2, 94, 117);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    
+    }
+
+    .contact .left button{
+        margin-left: 30%;
+width: 40%;
+height: 40px;
+border-radius: 5px;
+color: white;
+font-size: 20px;
+outline: none;
+border: 1px solid white;
+cursor: pointer;
+background: none;
+
+margin-top: 20px;
+    }
+.contact .right{
+    width: 40%;
+
+    height: 400px;
+    padding-top: 50px;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.contact .right .icons{
+    color: rgb(212, 212, 212);
+    font-size: 40px;
+    height: 60px;
+}
+.contact .right hr{
+   position: relative;
+   top: 0;
+   left: 0;
+    width: 98%;
+}
+.contact .right span{
+position: absolute;
+font-weight: 500;
+margin-top: 15px;
+    margin-left: 120px;
+    font-size: 20px;
+    color: white;
+  
+}
+
+
+
+
+
+@media (max-width: 500px){
+    .contact h1{
+        font-size: 10vw;
+       
+        text-align: center;
+    }
+    .contact h2{
+        font-size: 8vw;
+        font-weight: 460;
+        
+    }
+    .contact h3{
+        font-size: 5vw;
+        font-weight: 200;
+        text-align: center;
+        margin-top: -1%;
+    }
+    .contact .big{
+        
+        font-size: 9vw;
+    }
+    .contact .dash{
+        margin-top: 0%;
+     
+    }
+    .contact .left{
+        width: 100%;
+    
+        height: auto;
+        float: none;
+        margin-bottom: 5%;
+    }
+    .contact .left form{
+        margin-top: 5%;
+    
+    }
+    
+.contact .left input{
+    margin-left: 3%;
+    width: 90%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 6vw;
+    margin-top: 10px;
+    
+    }
+    
+.contact .left textarea{
+    margin-left: 3%;
+    width: 92%;
+    
+    height: 180px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 3px;
+    color: rgb(2, 94, 117);
+    font-size: 5.3vw;
+    margin-top: 10px;
+    
+    }
+    .contact .left button{
+        margin-left: 32%;
+width: 40%;
+height: auto;
+border-radius: 5px;
+color: white;
+font-size: 8vw;
+padding-top: 3%;
+padding-bottom: 3%;
+
+margin-top: 20px;
+    }
+
+    .contact .right{
+        width: 100%;
+  
+        height: auto;
+        padding-top: 2px;
+        float: none;
+        margin-bottom: 5%;
+    }
+    .contact .right .icons{
+       margin-left: 5%;
+        font-size: 10vw;
+        height: 50px;
+    }
+    .contact .right span{
+        position: relative;
+        font-weight: 400;
+        margin-top: 15px;
+        word-wrap: break-word;
+            margin-left: 10px;
+            font-size: 6vw;
+        
+          
+        }
+}
+

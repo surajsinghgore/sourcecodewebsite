@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.content-data{
+    z-index: -1;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: right;
+  overflow: hidden;
+    width: 79.9%;
+    height: 87.2vh;
+    overflow: auto;
+    background-color: hsl(220deg 12% 85%);
+}
+
+
+.content-data .img-section{
+  width: 50%;
+  margin-left: 25%;
+  height: 320px;
+ 
+  overflow: hidden;
+}
+.content-data .img-section img{
+height: 110%;
+filter: drop-shadow(1px 1px 10px rgb(104, 104, 104));
+}
+
+
+
+/* animation */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.wrapper{
+  /* display: flex; */
+}
+.wrapper .static-txt{
+  color: #fff;
+  float: left;
+  font-size: 60px;
+  margin-left: 30%;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+ 
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  top: 14%;
+  left: 0;
+  height: 90%;
+  width: 100%;
+  background: rgb(212 215 221);
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+
+
+.content-data .handles{
+  width: 100%;
+  height: 90px;
+overflow: hidden;
+display: flex;
+justify-content: center;
+}
+
+
+
+
+.content-data .handles li{
+  list-style: none;
+}
+
+.content-data .handles li img{
+  width: 60%;
+  height: 100%;
+}
+
+
+
+
+@media (max-width: 500px){
+  .content-data{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+   
+}
+.content-data .img-section{
+  width: 100%;
+  margin-left: 1%;
+  margin-top: 5%;
+  height: auto;
+ text-align: center;
+  overflow: hidden;
+}
+.content-data .img-section img{
+height: auto;
+width: 99%;
+filter: drop-shadow(1px 1px 7px rgb(104, 104, 104));
+}
+
+.wrapper .static-txt{
+margin-top: 7%;
+  float: none;
+  font-size: 14vw;
+  text-align: center;
+  margin-left: 1%;
+  font-weight: 400;
+}
+.dynamic-txts li{
+
+  font-size: 12vw;
+  margin-left: 5%;
+
+  position: relative;
+  top: -25%;
+  
+}
+.content-data .handles{
+  width: 100%;
+  height: auto;
+overflow: hidden;
+display: flex;
+justify-content: center;
+margin-bottom: 18%;
+}
+
+.content-data .handles li{
+ margin-left: 2%;
+}
+.content-data .handles li img{
+  width: 76%;
+  height: 50%;
+}
+
+}

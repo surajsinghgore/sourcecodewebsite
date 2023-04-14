@@ -1,0 +1,2 @@
+DATABASE=mongodb+srv://surajsinghgore:Suraj@3224@cluster0.ehwxh.mongodb.net/soucecodewebsites?retryWrites=true&w=majority
+SECRET_KEY=SURAJSINGHGOREISCODERCRICKTER

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+.live {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+ 
+  height: 1200px;
+}
+
+.live h1 {
+    clear: both;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: "Jockey One", sans-serif;
+}
+
+.live p {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 30px;
+  clear: both;
+  margin-left: 20px;
+  color: rgb(199, 199, 199);
+}
+.live .all{
+    
+    position: relative;
+    top: 0;
+    left: -8%;
+    padding-left: 30px;
+    float: left;
+   
+}
+
+.live .main{
+  cursor: pointer;
+
+  overflow: hidden;
+  width: 400px;
+
+  box-shadow: 0px 0px 10px 2px black;
+  height: 250px;
+
+}
+.live .main .img {
+  margin-left: 1%;
+  width: 98%;
+  height: 97%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+}
+.live .main .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.live .main .over {
+  position: absolute;
+  top: 0;
+  transform: translateY(-100%);
+  left: 0;
+  background-color: black;
+  width: 100%;
+  opacity: 0.8;
+  text-align: center;
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.live .main .over h5 {
+  color: rgb(24, 100, 145);
+  font-size: 30px;
+}
+
+.live .main .over span {
+  color: rgb(127, 192, 230);
+  font-size: 20px;
+}
+
+.live .main:hover .over {
+  transform: translateY(0%);
+}
+
+
+@media (max-width: 500px){
+  .live {
+   
+    
+   margin-bottom: 10%;
+    height: auto;
+  }
+  .live h1 {
+    
+    line-height: 90%;
+
+  font-size: 10vw;
+
+}
+.live p {
+  
+  font-size: 9vw;
+ width: 100%;
+  margin-left: 6%;
+ 
+}
+.live .all{
+   
+ width: 100%;
+  left: 0%;
+  padding-left: 0px;
+  height: auto;
+float: none;
+}
+.live .main{
+  height: auto;
+  margin-left: 5%;
+  width: 90%;
+margin-bottom: 0%;
+
+}
+.live .main .over {
+  display: none;
+}
+.live .main .img {
+  margin-left: 1%;
+  width: 98%;
+  height: 97%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+ 
+}
+}

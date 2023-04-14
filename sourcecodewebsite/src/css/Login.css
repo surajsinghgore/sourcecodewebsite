@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+.logins{
+    position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   
+   margin-bottom: 3%;
+   height: auto;
+}
+
+.main{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 3%;
+    margin-bottom: 7%;
+    margin-left: 30%;
+    
+    width: 40%;
+   
+    height: 480px;
+   
+}
+
+.main .back{
+    background-color: rgb(238, 238, 238);
+    height: 100%;
+    width: 94%;
+    margin-left: 2.5%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+
+.main .front{
+    position: absolute;
+    top: 6%;
+    box-shadow: 0px 0px 1px 0px rgb(160, 160, 160);
+    
+    left: 0;
+    height: 98%;
+    width: 98%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.main .front .empty{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 50px;
+    width: 8px;
+    background-color: rgb(90, 90, 90);
+}
+.main .front h1{
+    margin-top: 8%;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    color: rgb(61, 61, 61);
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+}
+
+
+.main .front .plus{
+
+    position: absolute;
+   top: 10%;
+    right: -12%;
+    font-size: 120px;
+    cursor: pointer;
+    color:rgb(29, 29, 29);
+
+}
+
+.main .front input{
+    width: 80%;
+   
+    border: none;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 8%;
+    outline: none;
+    border-bottom: 1px solid rgb(77, 77, 77);
+    height: 40px;
+}
+
+.main .front button{
+    cursor: pointer;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 8%;
+    outline: none;
+    border: 2px solid rgb(77, 77, 77);
+    height: 40px;
+    background: none;
+    color: red;
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width: 500px){
+
+    .main{
+      margin-top: 30%;
+        margin-bottom: 31vh;
+        margin-left: 7%;
+        
+        width: 80%;
+       
+        height: 300px;
+       
+    }
+    .main .back{
+        
+        height: 40%;
+      
+        width: 94%;
+       
+    }
+    
+.main .front{
+    position: absolute;
+    top: 6%;
+    box-shadow: 0px 0px 1px 0px rgb(160, 160, 160);
+   
+    left: 0;
+    height: auto;
+    width: 98%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+
+.main .front .empty{
+    position: absolute;
+    top: 8%;
+  
+    height: 8vh;
+    width: 2vw;
+    
+}
+.main .front h1{
+    margin-top: 15%;
+    letter-spacing: 5px;
+    margin-left: 50px;
+   
+    font-size: 8vw;
+    
+}
+
+
+.main .front .plus{
+
+   
+   top: 8%;
+    right: -16%;
+    font-size: 25vw;
+   
+}
+
+.main .front input{
+    width: 80%;
+   
+    
+    font-size: 4.5vw;
+   
+}
+
+.main .front button{
+  
+   
+   margin-bottom: 30px;
+    height: auto;
+    
+    font-size: 6vw;
+}
+}

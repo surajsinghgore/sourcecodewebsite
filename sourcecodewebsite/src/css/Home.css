@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+
+.home .body{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 100%;
+margin-bottom: 5%;
+}
+.home .body h1{
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    font-family: 'Tinos', serif;
+    font-size: 35px;
+    color: white;
+}
+
+.home .body p{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: 'PT Sans Narrow', sans-serif;
+   
+    font-size: 25px;
+    color: rgb(228, 215, 215);
+}
+.home .body button{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    width: 150px;
+cursor: pointer;
+color: white;
+border-radius: 10px;
+
+border: 2px solid #0e489e;
+background-color: #40a6eb;
+    height: 50px;
+    transition: all 0.5s;
+}
+
+.home .body button:hover{
+box-shadow: 5px 5px 4px 0px rgb(70, 70, 70);
+}
+
+
+.home .body .heighlight{
+    font-family: 'Barlow', sans-serif;
+    color: rgb(110, 202, 255);
+    font-weight: 800;
+}
+.home .body img{
+    position: absolute;
+    right: 0;
+    top:8%;
+    width: 600px;
+    height: 370px;
+}
+
+
+
+@media(max-width:500px){
+
+    .home .body{
+      overflow: hidden;
+    height: 100vh;
+    margin-bottom: 5%;
+    }
+    .home .body img{
+        position: relative;
+        right: 0;
+        top: 10%;
+        margin-top: 10%;
+        width: 100%;
+        margin-bottom: 15%;
+        height: auto;
+       
+    }
+    .home .body h1{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        text-align:center;
+        font-size: 10vw;
+        
+    }
+    .home .body p{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        text-align: center;
+        font-size: 6vw;
+        color: rgb(228, 215, 215);
+    }
+    .home .body button{
+        position: relative;
+        top: 0%;
+        left: 55%;
+     
+     word-wrap: break-word;
+        font-size: 6vw;
+        width:35%;
+        padding-top: 2%;
+    padding-bottom: 2%;
+        height: auto;
+       
+    }
+}

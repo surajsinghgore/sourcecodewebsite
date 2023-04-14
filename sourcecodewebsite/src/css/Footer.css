@@ -1,0 +1,148 @@
+.footer {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 95%;
+margin-top: -3%;
+  height: 85px;
+  background-color: black;
+  overflow: hidden;
+ margin-left: 5%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.footer .icons {
+  background-color: rgb(83, 81, 83);
+  margin-left: 20px;
+  width: 40px;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 30px;
+  margin-left: 50px;
+  cursor: pointer;
+ 
+  color: rgb(255, 255, 255);
+}
+.footer a {
+  text-decoration: none;
+}
+.footer .text {
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+}
+
+.footer .ig:hover {
+  background-color: white;
+  color: rgb(221, 19, 113);
+}
+
+.footer .igg:hover {
+  color: #e90670;
+}
+
+.footer .fb:hover {
+  background-color: white;
+  color: rgb(16, 75, 204);
+}
+
+.footer .fbb:hover {
+  color: #3372fa;
+}
+
+.footer .pi:hover {
+  background-color: white;
+  color: rgb(247, 45, 62);
+}
+
+.footer .pii:hover {
+  color: #f73656;
+}
+
+.footer .tw:hover {
+  background-color: white;
+  color: rgb(31, 170, 212);
+}
+
+.footer .tww:hover {
+  color: #29b1e7;
+}
+
+
+.footer .li:hover {
+    background-color: white;
+    color: rgb(31, 170, 212);
+  }
+  
+  .footer .lii:hover {
+    color: #8fd8f5;
+  }
+
+
+  .footer .te:hover {
+    background-color: rgb(27, 104, 177);
+    color: rgb(255, 255, 255);
+  }
+  
+  .footer .tee:hover {
+    color: #0776c0;
+  }
+ 
+
+
+
+
+.footers{
+  clear: both;
+  display: none;
+  height: auto;
+  line-height: 50px;
+  width: 100%;
+background: black;
+color: white;
+text-align: center;
+}
+
+  @media (max-width: 500px){
+    .footers{
+      position: relative;
+      bottom: 0;
+      /* margin-top: 10%; */
+      display: block;
+    }
+    .footer {
+     display: none;
+   
+    }
+    .footer a {
+     display: block;
+     text-align: center;
+
+    }
+    .footer .icons {
+   
+      margin-left: 0px;
+      width: 40px;
+      margin-top: 20px;
+      height: 40px;
+      border-radius: 30px;
+      margin-left: 0%;
+   
+    }
+
+    .footers span {
+      padding-left: 10px;
+   
+      font-size: 4vw;
+      color: rgb(255, 255, 255);
+    }
+  }
+
+
+
+  @media(min-width: 421px)and (max-width: 1023px){
+  
+  
+  }

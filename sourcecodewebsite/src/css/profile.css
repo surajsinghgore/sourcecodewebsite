@@ -1,0 +1,30 @@
+
+.pro{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    background-color: rebeccapurple;
+
+}
+.pro h1{
+    font-size: 30px;
+  
+}
+
+.pro label{
+    color: white;
+}
+.pro input{
+   font-size: 30px;
+    color: rgb(75, 236, 11);
+}
+.pro button{
+    width: 50%;
+    font-size: 40px;
+    color: rgb(75, 236, 11);
+    margin-bottom: 40px;
+    cursor: pointer;
+}

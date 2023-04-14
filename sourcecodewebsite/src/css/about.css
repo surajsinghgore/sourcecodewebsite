@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+
+
+.profile{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 38%;
+    margin-top: 1%;
+    height: 600px;
+    float: left;
+    margin-bottom: 1%;
+    text-align: center;
+  
+}
+
+.profile img{
+   box-shadow: 0px 0px 8px 0px black;
+   border-radius: 5px;
+    width: 90%;
+    height: 100%;
+}
+
+.data{
+    overflow: auto;
+    position: relative;
+    top: 0;
+    margin-top: 1%;
+    left: 0;
+    width: 60%;
+    margin-bottom: 1%;
+    height: 600px;
+    float: left;
+    margin-right: 2%;
+    background-color: #323c44;
+}
+
+.data h1{
+    font-weight: 800;
+    margin-left: 5%;
+    font-family: 'Patua One', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+
+.data p{
+
+    margin-left: 5%;
+    font-family: 'Cuprum', sans-serif;
+    color: rgb(211, 211, 211);
+    font-size: 19px;
+    text-transform: capitalize;
+}
+
+
+.data h3{
+
+    margin-left: 5%;
+    font-family: 'Codystar', cursive;
+    color: rgb(211, 211, 211);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+
+
+.data h2{
+
+    margin-left: 5%;
+    font-family: 'Alatsi', sans-serif;
+    color: rgb(176, 255, 248);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.data span{
+
+ 
+    float: right;
+    margin-right: 10%;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(239, 255, 146);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+@media (max-width: 500px){
+   
+   .about{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: auto;
+   }
+
+    .profile{
+       
+        width: 100%;
+        margin-top: 10%;
+        height: auto;
+        float: left;
+        margin-bottom: 1%;
+        text-align: center;
+      
+    }
+    .profile img{
+        
+        border-radius: 5px;
+         width: 60%;
+         height: auto;
+         border-radius: 10%;
+     }
+
+     .data{
+       overflow-x: hidden;
+        margin-top: 1%;
+        left: 0;
+        width:100%;
+        margin-bottom: 4%;
+        height: auto;
+        float: none;
+        margin-right: 2%;
+       
+    }
+    .data h1{
+        
+        
+        font-size: 10vw;
+    }
+    .data p{
+
+        
+        font-size: 7vw;
+        
+    }
+    
+.data h3{
+
+
+    
+    font-size: 5vw;
+    
+}
+.data h2{
+width: 100%;
+    margin-left: 3%;
+    font-size: 6vw;
+    font-weight: 500;
+    
+}
+.data span{
+
+ word-wrap: break-word;
+    float: none;
+    margin-right: 5%;
+   
+    font-size: 5vw;
+    font-weight: 300;
+    
+}
+}

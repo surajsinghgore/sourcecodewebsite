@@ -1,0 +1,49 @@
+
+
+/* study-items */
+
+    
+    .sidenavbar .main-items .study-items{
+      
+        margin-bottom: 70px;
+      
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    
+    .sidenavbar .main-items .study-items a{
+        text-decoration: none;
+    }
+    .sidenavbar .main-items .study-items li{
+        position: relative;
+        list-style: none;
+        width: 90px;
+        height: 90px;
+       text-align: center;
+     border:  3px solid hsl(221deg 13% 33%);
+     margin-top: 20px; 
+        background-color: hsl(221deg 13% 33%);
+        border-radius: 3px;
+        transform: scale(1);
+    
+    transition: all 0.3s;
+    }
+    .sidenavbar .main-items .study-items li:hover{
+    border: 3px solid rgb(126, 190, 250);
+    transform: scale(1.1);
+    cursor: pointer;
+    }
+    
+    .sidenavbar .main-items .study-items .icon{
+    width: 90px;
+    height: 70px;
+    }
+    
+    .sidenavbar .main-items .study-items li h2{
+       margin-top: -6%;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 200;
+        color: rgb(230, 228, 228);
+    }

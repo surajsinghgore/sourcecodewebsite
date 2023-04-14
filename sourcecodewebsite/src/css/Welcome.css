@@ -1,0 +1,40 @@
+.wrapper {
+  z-index: -1;
+  position: absolute;
+margin-top: 0.1%;
+  right: 0;
+
+overflow: hidden;
+  width: 80vw;
+  height: 87vh;
+  overflow: auto;
+  background-color: hsl(220deg 12% 85%);
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 32ch;
+    animation: typing 8s steps(22) infinite, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+color: rgb(77, 75, 75);
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3.2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

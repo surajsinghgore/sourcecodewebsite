@@ -1,0 +1,128 @@
+.Items{
+    z-index: -1;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+overflow: hidden;
+width: 80%;
+height: 545px;
+overflow: hidden;
+background-color: #616f7a;
+list-style: none;
+}
+
+
+.Items .top-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    overflow: hidden;
+    background-color: rgb(245, 245, 245);
+}
+
+.Items .top-heading span{
+    line-height: 80px;
+font-size: 30px;
+text-transform: uppercase;
+color: rgb(61, 61, 61);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Items .top-heading img{
+    margin-left: 3%;
+margin-top: 1%;
+height: 60px;
+}
+
+
+
+  .Items .data-items{
+      width: 100%;
+      height: 464px;
+      overflow: hidden;
+      overflow-y: auto;
+     display: block;
+     
+      margin-top: 0%;
+      background-color: rgb(73 80 95);
+  }
+
+  .Items .data-items h1{
+      text-align: center;
+      font-size: 35px;
+      margin-top: 0%;
+      padding-top: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      text-transform: uppercase;
+  }
+ 
+  .Items .data-items li{
+      list-style: none;
+      width: 90%;
+      margin-left: 5%;
+      cursor: pointer;
+      text-align: center;
+      line-height: 50px;
+      border-radius: 40px;
+      font-size: 25px;
+      text-transform: capitalize;
+      height: 50px;
+      margin-top: 2%;
+      background-color: rgb(216, 216, 216);
+  } 
+  .Items .data-items a{
+      text-decoration: none;
+      color: black  ;
+  }
+  .Items .data-items li:hover{
+      box-shadow: 0px 0px 19px 8px rgb(51, 50, 50);
+  }
+
+
+  @media (max-width: 900px) {
+    .Items{
+     
+    width:100%;
+    height: auto;
+
+    }
+     
+.Items .top-heading span{
+    line-height: 80px;
+font-size: 8vw;
+color: rgb(61, 61, 61);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.Items .data-items{
+    
+    height: auto;
+    padding-bottom: 10%;
+
+   
+}
+.Items .data-items h1{
+    text-align: center;
+    font-size: 6vw;
+    
+}
+.Items .data-items li{
+
+  
+
+    text-align: center;
+    line-height: 160%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+ 
+    font-size: 5vw;
+   
+    height: auto;
+    margin-top: 4%;
+  
+} 
+  }

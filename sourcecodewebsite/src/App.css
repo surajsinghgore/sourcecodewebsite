@@ -1,0 +1,14 @@
+
+.App{
+    position: relative;
+    top: 0;
+    left: 0;
+  
+    height: auto;
+    background-color: #55636F;
+}
+
+/* .App img{
+    pointer-events: none;
+    user-select: none;
+} */

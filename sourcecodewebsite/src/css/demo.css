@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');        
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+.template{
+    z-index: -1;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+overflow: hidden;
+width: 80%;
+height: 545px;
+overflow: hidden;
+background-color: #616f7a;
+list-style: none;
+}
+
+.template .top-title{
+width: 100%;
+text-align: center;
+height: 80px;
+overflow: hidden;
+margin-top: 0.4%;
+display: flex;
+justify-content: center;
+}
+
+.template .top-title span{
+     color: rgb(255, 255, 255);
+    margin-top: 15px;
+    user-select: none;
+    font-size: 30px; 
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.template .top-title img{
+    margin-left: 0%;
+    width: 130px;
+    margin-top: 1%;
+    height: 60px;
+}
+.template .top-title #a{
+    margin-left: 1%;
+    width: 100px;
+    margin-top: 1%;
+    height: 60px;
+}
+.template .top-title #b{
+    margin-left: 1%;
+    width: 80px;
+    margin-top: 0%;
+    height: 74px;
+}
+.tables{
+    margin-left: 10%;
+    user-select: none;
+    width: 80%;
+  
+    padding-bottom: 40px;
+}
+
+
+
+.template .allData{
+    position: relative;
+    top: 0;
+    left: 1%;
+    width: 98%;
+    height: 460px;
+    background-color: rgb(255, 251, 251);
+ overflow: hidden;
+ overflow-y: auto;
+
+}
+
+.template .allData h1{
+    text-align: center;
+
+    font-size: 30px;
+    color: rgb(104, 104, 104);
+    margin-top: 2%;
+    user-select: none;
+    text-transform: capitalize;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.template .allData h2{
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: lowercase;
+    padding-left: 2%;
+    margin-top: -0%;
+    margin-top: 5%;
+    user-select: none;
+    font-size: 24px;
+}
+
+.template .allData h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: lowercase;
+    padding-left: 5%;
+    margin-top: 4%;
+    user-select: none;
+    color: blue;
+    font-size: 19px;
+}
+
+.template .allData h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: lowercase;
+    padding-left: 5%;
+    margin-top: 1%;
+    user-select: auto;
+    color: blue;
+    font-size: 19px;
+}
+.template .allData h5 a{
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+.template .allData p{
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: lowercase;
+    padding-left: 2%;
+    margin-top: 2%;
+    user-select: none;
+    font-size: 20px;
+    color: rgb(243, 40, 4);
+}
+
+
+.template .allData .imgs{
+    width: 70%;
+    height: auto;
+
+    margin-left: 15%;
+    pointer-events: none;
+user-select: none;
+}
+
+.template .allData .imgss{
+    width: 25%;
+    height: 480px;
+
+    margin-left: 15%;
+    pointer-events: none;
+user-select: none;
+}
+
+@media (max-width: 900px) {
+    .template{
+      
+   
+    width: 100%;
+    height: auto;
+   
+    }
+    .template .top-title{
+ 
+    
+        height: auto;
+    
+       margin-bottom: 1%;
+        }
+        .template .top-title span{
+           
+           font-size: 7vw; 
+        
+       } 
+
+      
+       .template .top-title img,#a,#b{
+        margin-left: 8%;
+        width: 25%;
+        height: 15vw;
+        margin-bottom: 1%;
+    }
+
+    .template .allData{
+     
+        height: auto;
+  
+    }
+    .template .allData h1{
+       
+        font-size: 8vw;
+      
+    }
+    .template .allData h2{
+    
+        font-size: 6vw;
+    }
+    .template .allData h3{
+        
+        font-size: 6vw;
+    }
+    .template .allData p{
+      
+        font-size: 5vw;
+       
+    }
+}
