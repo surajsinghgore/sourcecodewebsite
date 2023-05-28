@@ -107,7 +107,7 @@ export default function Top_loader_bar() {
 </pre>
 <h3>succesfully done</h3>
 <h2>follow this website for extra knowledge</h2>
-<h5><a href="https://www.npmjs.com/package/react-top-loading-bar" target="_blank">click here for official website</a></h5>
+<h5><a href="https://www.npmjs.com/package/react-top-loading-bar" target="_blank" rel="noreferrer">click here for official website</a></h5>
 
 </div>
 </div>

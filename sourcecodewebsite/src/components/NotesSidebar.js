@@ -1,6 +1,5 @@
 import WarningIcon from '@material-ui/icons/Warning';
 import IconsCard from '../props/IconsCard';
-import PersonIcon from '@material-ui/icons/Person';
 
 import { BiDevices} from 'react-icons/bi';
 import { Link } from "react-router-dom";

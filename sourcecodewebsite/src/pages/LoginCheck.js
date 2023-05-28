@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useEffect} from 'react';
 import {useHistory} from 'react-router-dom';
 
 export default function LoginCheck() {
@@ -41,8 +41,8 @@ if(!res.status===200){
    useEffect(() => {
   
        callAboutPage();
-       
-   });
+      // eslint-disable-next-line react-hooks/exhaustive-deps 
+   },[]);
     return (
         <div>
             

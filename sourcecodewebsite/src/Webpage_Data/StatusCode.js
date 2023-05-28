@@ -199,7 +199,7 @@ TRACE: The message body contains the request message as received by the server.<
 <p>The 511 status code indicates that the client needs to authenticate to gain network access</p>
 
 <h2>for more details click below for official website</h2>
-<h5><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" target="_blank">click me</a></h5>
+<h5><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" target="_blank" rel="noreferrer">click me</a></h5>
             </div>
       </div>
         </>

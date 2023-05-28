@@ -110,7 +110,7 @@ const PORT=process.env.PORT;`}
   </code>
 </pre>
 <h2>for more details click below for official website</h2>
-<h5><a href="https://www.npmjs.com/package/dotenv" target="_blank">click me</a></h5>
+<h5><a href="https://www.npmjs.com/package/dotenv" target="_blank" rel="noreferrer">click me</a></h5>
             </div>
       </div>
         </>

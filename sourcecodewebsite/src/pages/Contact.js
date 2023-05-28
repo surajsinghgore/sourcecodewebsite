@@ -53,7 +53,7 @@ const Contact = () => {
        
        useEffect(() => {
            aboutDataPage();
-           
+           // eslint-disable-next-line react-hooks/exhaustive-deps
        },[]);
     
 

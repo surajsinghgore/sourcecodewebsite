@@ -1,7 +1,6 @@
 import MainHeader from "../components/MainHeader";
 import SideNavBar from "../components/SideNavBar";
 import LoginCheck from "../pages/LoginCheck";
-import MainItemsHeader from '../components/MainItemsHeader';
 
 import '../css/mainItems.css';
 import CodeProp from "../props/CodeProp";

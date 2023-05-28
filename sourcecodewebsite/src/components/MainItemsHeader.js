@@ -1,4 +1,4 @@
-import MainHeader from "./MainHeader";
+
 export default function MainItemsHeader(props) {
     return (
         <>

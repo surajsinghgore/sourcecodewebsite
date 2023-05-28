@@ -3,7 +3,6 @@ import SideNavBar from "../components/SideNavBar";
 import LoginCheck from "../pages/LoginCheck";
 import "../css/demo.css";
 import "../css/prismdemo.css";
-import multipleAccount from '../api/git/multipleaccount/multile.account'
 
 export default function August13() {
     let SubIcon =

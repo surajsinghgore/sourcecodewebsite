@@ -1,7 +1,6 @@
 import MainHeader from "../components/MainHeader";
 import SideNavBar from "../components/SideNavBar";
 import {Link} from 'react-router-dom';
-import LoginCheck from "../pages/LoginCheck";
 import '../css/mainItems.css';
 import MainItemsHeader from '../components/MainItemsHeader';
 

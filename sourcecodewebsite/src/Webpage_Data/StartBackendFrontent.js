@@ -47,7 +47,7 @@ export default function StartBackendFrontent() {
 </code> </pre>
 <h2>step 2: add this in script of clinet/package.json</h2>
 <pre class="language-js">
-            <code>{`"both":"concurrently\"npm run start\" \"nodemon ../server.js \"" `}
+            <code>{`"both":"concurrently"npm run start" "nodemon ../server.js "" `}
 </code> </pre>
 <p>../server is the path of my backend server</p>
 <h2>Step 3: open terminal in clinet path folder and type </h2>
