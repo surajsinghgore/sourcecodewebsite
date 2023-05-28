@@ -88,7 +88,7 @@ const Hame=()=>{
         <div className="Header">
 
             <div className="logopart">
-                <img src={logo} alt="logo not displyed"/>
+                <img src="/logo.png" alt="logo not displyed"/>
                 <span>PRPWEBSITE.COM</span>
                 <p>Perfect Research Presentation</p>
             </div>

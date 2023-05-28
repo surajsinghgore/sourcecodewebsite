@@ -64,18 +64,6 @@ const VideosSidebar = () => {
     Authentication();
   });
 
-  // const CodeCard = (props) => {
-  //   return (
-  //     <>
-  //       <Link to={props.Link}>
-  //         <li>
-  //           <img src={props.iconsTag} alt={props.alts} className="icon" />
-  //           <h2>{props.H2}</h2>
-  //         </li>
-  //       </Link>
-  //     </>
-  //   );
-  // };
   return (
     <>
     <button className="open" id="open" onClick={ShowSideMenu}><MenuOpenIcon className="btn"/></button>

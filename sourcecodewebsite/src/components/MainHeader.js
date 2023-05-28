@@ -6,7 +6,7 @@ import { useState } from "react";
 import SearchBarContent from "./SearchBarContent";
 
 const MainHeader = () => {
-  let logo="/logo.png";
+
   const [val, setVal] = useState("");
   let myUl = document.getElementById("myUl");
   let sb = document.getElementById("sb");
@@ -50,7 +50,7 @@ const MainHeader = () => {
   return (
     <div className="top">
       <div className="left-img">
-        <img src={logo} alt="logo not display" />
+        <img src="/logo.png" alt="logo not display" />
       </div>
       <h1>PRP WEBSITE</h1>
 

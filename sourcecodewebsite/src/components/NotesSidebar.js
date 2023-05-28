@@ -3,7 +3,7 @@ import IconsCard from '../props/IconsCard';
 
 import { BiDevices} from 'react-icons/bi';
 import { Link } from "react-router-dom";
-let api="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/c67605a14382b8c4eb93ee76b89c1c39a8375d5b/api.svg";
+
 const NotesSidebar = () => {
   
   const CodeCard = (props) => {
@@ -27,7 +27,7 @@ const NotesSidebar = () => {
           />
           <CodeCard
         Link="/api"
-        iconsTag={api}
+        iconsTag="/api.svg"
         H2="API"
         alts="js not display"
       />
