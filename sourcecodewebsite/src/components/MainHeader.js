@@ -6,7 +6,7 @@ import { useState } from "react";
 import SearchBarContent from "./SearchBarContent";
 
 const MainHeader = () => {
-  let logo="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/logo.png";
+  let logo="/logo.png";
   const [val, setVal] = useState("");
   let myUl = document.getElementById("myUl");
   let sb = document.getElementById("sb");

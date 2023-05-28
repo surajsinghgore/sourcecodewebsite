@@ -4,7 +4,7 @@ const userData = require("../database/models/userSchema");
 const Authentication = async (req, res, next) => {
   try {
     const token = req.cookies.userToken;
-
+console.log(req.cookies.userToken)
     const verifyToken = jwt.verify(token, process.env.SECRET_KEY);
     
     const rootUser = await userData.findOne({
@@ -20,8 +20,8 @@ const Authentication = async (req, res, next) => {
     req.userId = rootUser._id;
     next();
   } catch (error) {
-    res.status(401).send("Unauthorized user");
     console.log(error + " unauthozied");
+    res.status(401).send("Unauthorized user");
   }
 };
 

@@ -9,7 +9,7 @@ import Web from '../props/Web';
 
 
 const LiveWebsite = () => {
-  console.log(ImgUrl[0].img);
+
   return (
     <div>
       <Header />

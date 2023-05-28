@@ -7,7 +7,7 @@ import {useState,useEffect} from 'react';
 
 
 const Home = () => {
-    let svg = 'https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/banner.svg';
+    let svg = '/banner.svg';
     const [login,setLogin]=useState(false);
 const [data,setData]=useState();
 

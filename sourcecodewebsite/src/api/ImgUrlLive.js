@@ -1,16 +1,16 @@
 //website images
-let temp1 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp1.png";
-let temp2 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp2.png";
-let temp3 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp3.png";
-let temp4 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp4.png";
-let temp5 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp5.png";
-let temp6 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp6.png";
-let temp7 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp7.png";
-let temp8 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp8.png";
-let temp9 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp9.png";
-let temp10 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp10.png";
-let temp11 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp11.png";
-let temp12 = "https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/temp12.png";
+let temp1 = "/temp1.png";
+let temp2 = "/temp2.png";
+let temp3 = "/temp3.png";
+let temp4 = "/temp4.png";
+let temp5 = "/temp5.png";
+let temp6 = "/temp6.png";
+let temp7 = "/temp7.png";
+let temp8 = "/temp8.png";
+let temp9 = "/temp9.png";
+let temp10 = "/temp10.png";
+let temp11 = "/temp11.png";
+let temp12 = "/temp12.png";
 
 //website links
 const copywebsite = "https://surajsinghgore.github.io/paperclass12/";

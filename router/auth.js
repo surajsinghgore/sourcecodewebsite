@@ -106,22 +106,16 @@ router.post("/login", async (req, res) => {
     const userLogin = await userData.findOne({
       email: email,
     });
-    const passwords = await userData.findOne({
-      password: password,
-    });
-
+    
 
     //compare password
 
-    if (userLogin) {
+    if (userLogin!=null) {
       const isMatch = await bcrypt.compare(password, userLogin.password);
-     
+ 
+    
       //jwt token is here
       const token = await userLogin.generateAuthToken();
-      res.cookie("userToken", token, {
-        expires: new Date(Date.now(), 2589200000),
-        httpOnly: true,
-      });
 
       if (!isMatch) {
         res.status(400).json({
@@ -133,7 +127,8 @@ router.post("/login", async (req, res) => {
             err: "password not match",
           });
         }
-        res.json({
+        res.cookie('userToken', token, { maxAge: 900000, httpOnly: true }); 
+        res.status(200).json({
           msg: "user login successfully",
         });
       }
@@ -154,6 +149,7 @@ router.get("/about", Authentication, (req, res) => {
 
 //authentications
 router.get("/authentications", Authentication, (req, res) => {
+console.log(req.rootUser)
   res.send(req.rootUser);
 });
 

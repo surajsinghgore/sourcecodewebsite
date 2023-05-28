@@ -4,21 +4,21 @@ import { Link } from "react-router-dom";
 
 const MainStudyIcons = () => {
   
-let js="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/js.svg";
-let html="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/html.svg";
-let react="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/react.svg";
-let css="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/css.svg";
-let node="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/node.svg";
-let github="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/github.svg";
-let mysql="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/mysql.svg";
-let mongodb="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/mongodb.svg";
-let java="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/java.svg";
-let npm="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/npm.png";
-let express="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/express.png";
-let heroku="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/aa26b05a58adf77569b7ef1f7a0adfe7dd7c6e0c/heroku.png";
-let git="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/62e247736ed96956f8a3d4e269af5ed1a13c8ce0/git.svg";
-let firebase="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/29888d918b2b210c3ceb52934b01ed27fd56d125/firebase.svg";
-let mongoose="https://raw.githubusercontent.com/hot01/sourcecodewebsitedata/master/mongoose.png";
+let js="/js.svg";
+let html="/html.svg";
+let react="/react.svg";
+let css="/css.svg";
+let node="/node.svg";
+let github="/github.svg";
+let mysql="/mysql.svg";
+let mongodb="/mongodb.svg";
+let java="/java.svg";
+let npm="/npm.png";
+let express="/express.png";
+let heroku="/heroku.png";
+let git="/git.svg";
+let firebase="/firebase.svg";
+let mongoose="/mongoose.png";
 
 
   const CodeCard = (props) => {
