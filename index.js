@@ -7,7 +7,7 @@ const bodyparser = require("body-parser");
 const cors = require("cors");
 const path = require("path");
 
-app.use(cors({origin:"http://localhost:3000"}));
+app.use(cors({origin:"https://sourcecodewebsite.surajsingh.online"}));
 app.use(bodyparser.json());
 
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
