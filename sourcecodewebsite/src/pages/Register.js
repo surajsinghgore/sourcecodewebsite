@@ -59,6 +59,7 @@ const res=await fetch(`${process.env.REACT_APP_SERVER_URL}/registers`,{
   
 });
 const data=await res.json();
+console.log(data)
 if(res.status===422|| !data){
    
     toast.error("Invalid registration",{

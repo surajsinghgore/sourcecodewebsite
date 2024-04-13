@@ -108,12 +108,14 @@ router.post("/login", async (req, res) => {
     });
     
 
+
     //compare password
 
     if (userLogin!=null) {
+   
       const isMatch = await bcrypt.compare(password, userLogin.password);
  
-    
+
       //jwt token is here
       const token = await userLogin.generateAuthToken();
 
@@ -127,8 +129,9 @@ router.post("/login", async (req, res) => {
             err: "password not match",
           });
         }
-        res.cookie('userToken', token, { maxAge: 900000, httpOnly: true }); 
-        res.status(200).json({
+      
+        res.cookie('userToken', token); 
+        return res.status(200).json({
           msg: "user login successfully",
         });
       }
@@ -169,7 +172,7 @@ router.post("/message", Authentication, async (req, res) => {
     }
 
     const userContact = await userData.findOne({ _id: req.userId });
-    console.log(userContact);
+    
     if (userContact) {
       const userMessage = await userContact.addMessage(
         fullname,

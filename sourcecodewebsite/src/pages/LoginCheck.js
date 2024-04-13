@@ -14,7 +14,7 @@ const callAboutPage=async ()=>{
 const res=await fetch(`${process.env.REACT_APP_SERVER_URL}/about`,{
     method:"GET",
     headers:{
-        Accept:"application/json",
+       
         "Content-Type":"application/json"
     },
     credentials:"include"
@@ -30,7 +30,7 @@ if(!res.status===200){
    } catch (error) {
     
        console.log(error);
-       history.push('/login');
+    //    history.push('/login');
    }
    
        }

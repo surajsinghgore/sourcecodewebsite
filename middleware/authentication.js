@@ -3,15 +3,16 @@ const userData = require("../database/models/userSchema");
 
 const Authentication = async (req, res, next) => {
   try {
+   
     const token = req.cookies.userToken;
-
+    console.log(token)
     const verifyToken = jwt.verify(token, process.env.SECRET_KEY);
     
     const rootUser = await userData.findOne({
       _id: verifyToken._id,
       "tokens.token": token,
     });
-
+console.log(rootUser)
     if (!rootUser) {
       throw new Error("user not found");
     }
