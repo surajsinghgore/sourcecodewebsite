@@ -144,7 +144,7 @@ useEffect(()=>{
   }
  
 // eslint-disable-next-line react-hooks/exhaustive-deps
-});
+},[]);
   const ShowSideMenu=()=>{
 let open=document.getElementById('open');
 let close=document.getElementById('close');
